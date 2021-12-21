@@ -52,7 +52,15 @@ function solution(name) {
     }
   }
 
-  function up(fromS, toS) {}
+  function up(fromS, toS) {
+    let f = fromS.charCodeAt(0);
+    let t = toS.charCodeAt(0);
+
+    if (f <= t) {
+      return t - f;
+    } else {
+    }
+  }
 
   function down(fromS, toS) {}
 
