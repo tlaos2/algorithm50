@@ -17,3 +17,13 @@ console.log(contedNmaes);
 
 //### 배열 원소들 중 최대값 구하기
 let max = [1, 2, 3, 4, 5].reduce((max, cur) => Math.max(max, cur), -Infinity);
+
+//## 이차원 배열 초기화
+let graph = Array.from(Array(n+1), ()=>Array(n+1).fill(0)); 
+
+
+//## 8방향 탐색
+let dx = [-1,-1,0,1,1,1,0,-1]
+let dy = [0,1,1,1,0,-1,-1,-1]
+
+
